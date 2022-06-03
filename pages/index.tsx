@@ -48,7 +48,7 @@ const Home = () => {
                 <h2 className="font-bold md:text-3xl text-2xl">A better way to send mail</h2>
                 <p className="text-gray-400 py-2 max-w-3xl mx-auto px-2 pb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ipsa adipisci quidem deserunt. Quo, omnis odio aliquid, obcaecati temporibus, beatae nihil repudiandae est minus ut maiores error ex corporis quos?</p>
                 <div className="flex flex-wrap pt-4 px-2">
-                    {[0, 1, 2, 3].map(() => <div className="w-full p-2 md:w-1/2 flex text-left">
+                    {[0, 1, 2, 3].map((i) => <div className="w-full p-2 md:w-1/2 flex text-left" key={i}>
                         <div className="rounded bg-indigo-600 w-12 h-12 flex-shrink-0 flex justify-center items-center">
                             <GlobeIcon className="h-6 w-6 text-white" />
                         </div>
